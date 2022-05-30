@@ -7,3 +7,6 @@ npm version: 6.14.15
 # Process to run application
 1) npm i
 2) npm start
+
+# Telegram bot name:
+node_call
