@@ -1,0 +1,21 @@
+{
+  "name": "node_telegram_bot",
+  "version": "1.0.0",
+  "description": "nodejs telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start_index": "nodemon index.js",
+    "start_api": "nodemon src/calculator.js",
+    "start": "concurrently \"npm run start_index\" \"npm run start_api\""
+  },
+  "author": "Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.2.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16"
+  }
+}
